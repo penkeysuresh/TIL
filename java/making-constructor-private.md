@@ -1,0 +1,1 @@
+Making a constructor private gives us a great control over the creation of an object's instance. This paradigm is used in many design patterns viz. : Singleton design pattern, Static factory design pattern. This can also be used in classes where creation of an object doesn't make any sense viz.: Constants class, Static methods only utility class  

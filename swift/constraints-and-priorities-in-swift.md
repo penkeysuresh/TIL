@@ -1,0 +1,3 @@
+While setting constraints between UI elements in storyboard, by default constraints are given a ``1000`` or a ``required`` prioriety. That means compiler will keep that constant no matter what and will throw errors if there are any conflicts. However one can change the weitage of that constraint and give a value above 750 (high) or below 250 (low) values. 
+
+Based on the number assigned to the constraints, compiler at runtime sets the layout. When a constraint with higher number is not applicable anymore (viz when the UI element is removed from layout using code) next constraint with highest value is given prioriety.. and so on. These constraints are a must for the view not to collapse when a required. 

@@ -1,0 +1,3 @@
+Creating an object out of a class is Initialization. All variables must be initialized inorder to create an instance of the class (or can be kept in optional state). Designated initializers are primary initializer of the object. Any other initializers, called ``convenience initializer`` must call this designated initializer ultimately. Instance initialization happens in two phases. First all variables are initialized and then in second phase they are customized. 
+
+Failable initializers are a part of language in swift. This failure can be triggered by invalid parameters or absence of required external resource etc. We can write a failable initializer as ``init?``. This will return ``nil`` incase of failure to create an instance.
